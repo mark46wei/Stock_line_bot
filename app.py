@@ -14,7 +14,7 @@ line_bot_api = LineBotApi('mvwVq2sJsehGFk4S+EcZZIE+iiiz84X75F25OmzbBAWmN38CSS9b0
 # 必須放上自己的Channel Secret
 handler = WebhookHandler('db6a92064c543b1380b52c8eab14d646')  
 
-line_bot_api.push_message('Uba61a3d45b7acb0b333ece913cebd893', TextSendMessage(text='你可以開始了'))
+#line_bot_api.push_message('Uba61a3d45b7acb0b333ece913cebd893', TextSendMessage(text='你可以開始了'))
 
 #line bot與heroku串接
 # 監聽所有來自 /callback 的 Post Request 
